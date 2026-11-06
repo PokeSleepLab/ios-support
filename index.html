@@ -1,24 +1,24 @@
 <!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="noindex,nofollow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
-  <meta name="referrer" content="no-referrer">
-  <title>PokeSleepLab · 使用支持与隐私</title>
-  <style>
-    :root{color-scheme:light;--red:#bf444e;--ink:#2f4c3a;--paper:#fffef5;--screen:#e2ebc7;--edge:#9eaf80}*{box-sizing:border-box}body{margin:0;background:var(--red);color:var(--ink);font:16px/1.8 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}header,main,footer{width:min(900px,calc(100% - 32px));margin:auto}header{padding:32px 4px 20px;color:#fffbe9}header p{margin:0;font-family:ui-monospace,monospace;letter-spacing:.08em}h1{font-size:clamp(25px,5vw,34px);margin:4px 0}main{background:var(--screen);border:5px solid #f1eed7;border-radius:24px;padding:clamp(18px,4vw,32px);box-shadow:0 5px #7b2e36}p{margin:8px 0}nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:24px 0}nav a{display:block;background:var(--paper);border:1px solid var(--edge);border-radius:14px;padding:20px;font-size:20px;font-weight:700;text-align:center;text-decoration:none}a{color:inherit;text-underline-offset:4px}a:focus-visible{outline:3px solid var(--ink);outline-offset:4px}.contact{overflow-wrap:anywhere}footer{padding:24px 4px 32px;color:#fffbe9;font-size:14px}
-  </style>
-</head>
+<html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'"><title>使用说明 · PokeSleepLab</title><style>:root{color-scheme:light;--red:#bf444e;--ink:#2f4c3a;--paper:#fffef5;--screen:#e2ebc7;--edge:#9eaf80}*{box-sizing:border-box}body{margin:0;background:var(--red);color:var(--ink);font:16px/1.8 system-ui,-apple-system,sans-serif}header,main,footer{width:min(900px,calc(100% - 32px));margin:auto}header{padding:32px 4px 20px;color:var(--paper)}header p{margin:0}h1{font-size:clamp(26px,5vw,38px);line-height:1.3;margin:0 0 8px}main{background:var(--screen);border:5px solid var(--paper);border-radius:24px;padding:clamp(18px,5vw,32px);box-shadow:0 8px 0 #842c34}h2{font-size:22px;line-height:1.4;margin:28px 0 12px}h2:first-child{margin-top:0}p{margin:0 0 16px}nav{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:24px}a{color:var(--ink);text-underline-offset:3px}nav a{display:inline-block;padding:8px 16px;border:1px solid var(--edge);border-radius:12px;background:var(--paper);font-weight:650;text-decoration:none}a:focus-visible{outline:3px solid var(--ink);outline-offset:3px}.contact{overflow-wrap:anywhere}.note{padding:14px 16px;background:var(--paper);border:1px solid var(--edge);border-radius:14px}footer{color:var(--paper);padding:24px 4px 32px;font-size:14px}ul,ol{padding-left:1.4em}li{margin-bottom:9px}</style></head>
 <body>
-  <header><p>POKESLEEPLAB</p><h1>宝可睡眠实验室</h1></header>
-  <main>
-    <p>PokeSleepLab 是睡眠类型与曲线的计算、编辑和记录工具。用户主动授权后，可将自行设置的记录写入 Google Health，并查询、核对或删除原记录。这些记录不是本应用通过传感器测得的数据。</p>
-    <nav aria-label="支持页面"><a href="support.html">使用与支持</a><a href="privacy.html">隐私说明</a></nav>
-    <p>TestFlight 测试构建及邀请正在准备，本页暂不提供安装链接。</p>
-    <p class="contact">发布主体：郑雅玲<br>公开支持邮箱：<a href="mailto:elyz24@gmail.com">elyz24@gmail.com</a></p>
-  </main>
-  <footer>PokeSleepLab · RAINING · 更新于 2026-11-06</footer>
+<header><h1>PokeSleepLab</h1><p>宝可睡眠实验室 · iOS 支持</p>
+</header>
+<main>
+<nav aria-label="页面导航"><a href="index.html">使用说明</a><a href="privacy.html">隐私说明</a><a href="support.html">联系支持</a></nav>
+<h2>无需登录的本机记录工具</h2>
+<p>PokeSleepLab 默认可在本机计算和编辑睡眠曲线、保存与删除记录、查看列表及月视图，并安排多日计划。本机模式无需 Google 账号或网络，也不会向 Google 上传记录。</p>
+<p>时间和曲线由你自行设置，不是本应用通过传感器测得的数据，不能当作真实健康测量结果或医疗建议。本应用不是 Google、Fitbit 或 Pokémon 官方产品。</p>
+<h2>Google 连接是可选项</h2>
+<p>只有主动选择 Google 并完成授权，才会进入该 Google 账号的独立工作区。该工作区可实际向 Google Health 创建、查询、核对及删除由你设置的睡眠记录。接入使用实验性设备会话，权限可能超出睡眠操作，并非普通公开 iOS OAuth。</p>
+<p>本机与 Google 记录、计划和重复时段检查分开。同一时段的本机记录不会占用 Google 时段；登录、恢复授权、退出或换账号不会补传或合并本机数据。本机成功显示“本机已保存 / 本机已删除”，不能视为云端结果。</p>
+<h2>多日计划与系统提醒</h2>
+<p>本机计划只处理本机记录；Google 计划需要对应账号的可用授权与网络。切换工作区会停止原工作区的执行和系统展示。iOS 决定后台执行时机，可能延迟；强制退出后通常需要重新打开。通知和实时活动需主动开启，到期提醒不代表执行成功，点击后可进入计划页核查。</p>
+<h2>删除与账号</h2>
+<p>本机删除不影响 Google。Google 工作区可按原记录直接删除并查询核对；结果未确认时请继续核对原记录，避免重复提交。退出、取消或移除计划不会删除已提交的云端记录。</p>
+<h2>测试安装与更新</h2>
+<p>朋友测试计划使用 Apple TestFlight；只有 Apple 批准的外部测试构建才可安装。拟提供人数受限的加入链接，或正式个人邀请，安装及更新由 Apple 管理。App 不设自定义安装邀请码。具体开放进度以实际收到的有效链接或邀请为准。</p>
+<p class="note">使用前请查看完整隐私说明。不要向支持人员发送密码、验证码、Cookie、授权令牌或证件。</p>
+</main>
+<footer>郑雅玲 · 支持邮箱 <a class="contact" href="mailto:elyz24@gmail.com">elyz24@gmail.com</a><br>适用于 0.3.23 本机默认版本 · 更新于 2026 年 11 月 6 日</footer>
 </body>
 </html>
